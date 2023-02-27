@@ -23,7 +23,7 @@ const Main = () => {
       title_en: "combination",
     },
     { category: "score", title_ko: "점수계산", title_en: "scoring" },
-    { category: "reservation_info", title_ko: "대탁 정보" },
+    { category: "majang_info", title_ko: "대탁 정보" },
   ];
 
   const supportLang = ["Korean", "English", "Jappaness", "Chinesse"];

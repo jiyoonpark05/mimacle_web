@@ -2,7 +2,7 @@ import { useState } from "react";
 import styled from "styled-components";
 
 const LocaleSelector = () => {
-  const supportLang = ["Korean", "English", "Jappaness", "Chinesse"];
+  const supportLang = ["Korean", "English"];
   const [locale, setLocale] = useState("Korean");
   const [open, setOpen] = useState(false);
 
@@ -42,6 +42,7 @@ const LocaleSelector = () => {
 
 const Container = styled.div`
   position: relative;
+  float: right;
   cursor: pointer;
 `;
 
